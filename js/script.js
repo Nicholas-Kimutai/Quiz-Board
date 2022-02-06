@@ -14,5 +14,25 @@ function totalScore(){
           }
       }
   }
-  
+   
+   for (var i=0, length=questionTwo.length;i<length;i++){
+       if(questionTwo[i].checked){
+          var ans2=questionTwo[i].value
+          if(questionTwo[i].value==='A'){
+            score+=20
+        }
+      }
+    }
+
+    for (var i=0, length=questionThree.length;i<length;i++){
+        if(questionThree[i].checked){
+           var ans3=questionThree[i].value
+           if(questionThree[i].value==='D'){
+             score+=20
+         }
+       }
+     }
+
+
+
 }
