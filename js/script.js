@@ -42,7 +42,14 @@ function totalScore(){
        }
      }
 
-     
+     for (var i=0, length=questionFive.length;i<length;i++){
+        if(questionFive[i].checked){
+           var ans5=questionFive[i].value
+           if(questionFive[i].value==='C'){
+             score+=20
+         }
+       }
+     }
 
 
 }
