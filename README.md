@@ -31,9 +31,9 @@ Load the webpage in any browser.
 * Javascript- Used for scripting the webpage to be interactive.
 
 ## Reference
-Moringa School Canvas
-![Design](/Images/Quiz Board.png)
-Design-[Figma Design](https://www.figma.com/file/He0D33abtuWCRaRxLzsAiC/Quiz-Board?node-id=0%3A1)
+<p>Moringa School Canvas</p>
+<p>![](./Images/Quiz Board.png)</p>
+<p>Design-[Figma Design](https://www.figma.com/file/He0D33abtuWCRaRxLzsAiC/Quiz-Board?node-id=0%3A1)</p>
 
 
 ## Contact Info
