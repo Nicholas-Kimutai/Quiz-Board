@@ -9,3 +9,8 @@ button{
  color: white;
 
 }
+#after_submit output{
+    font-weight: 700;
+    font-size: 20px;
+
+}
