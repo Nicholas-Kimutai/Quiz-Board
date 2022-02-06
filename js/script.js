@@ -51,7 +51,7 @@ function totalScore(){
        }
      }
 
-    document.getElementById("answer").value="Your score is:" +score;
+    document.getElementById("answer").value="Your score is: " +score+ "%";
     
     if(score>80){
         document.getElementById("remarks").value="You have Excellently passed!";
