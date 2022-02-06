@@ -2,8 +2,8 @@ function totalScore(){
   var questionOne=document.getElementsByName("question1");
   var questionTwo=document.getElementsByName("question2");
   var questionThree=document.getElementsByName("question3");
-  var questionFour=document.getElementsByClassName("question4");
-  var questionFive=document.getElementsByClassName("question5");
+  var questionFour=document.getElementsByName("question4");
+  var questionFive=document.getElementsByName("question5");
   var score=0;
 
   for (var i=0, length=questionOne.length;i<length;i++){
@@ -37,7 +37,7 @@ function totalScore(){
         if(questionFour[i].checked){
            var ans4=questionFour[i].value
            if(questionFour[i].value==='B'){
-             score+=20
+             score +=20
          }
        }
      }
@@ -51,5 +51,5 @@ function totalScore(){
        }
      }
 
-
+    document.getElementById("answer").value="Your score is " +score;
 }
