@@ -32,9 +32,7 @@ Load the webpage in any browser.
 
 ## Reference
 <p>Moringa School Canvas</p>
-<p>![](./Images/Quiz Board.png)</p>
-<p>Design-[Figma Design](https://www.figma.com/file/He0D33abtuWCRaRxLzsAiC/Quiz-Board?node-id=0%3A1)</p>
-
+Design-[Figma Design](https://www.figma.com/file/He0D33abtuWCRaRxLzsAiC/Quiz-Board?node-id=0%3A1)
 
 ## Contact Info
 LinkedIn - [Nicholas KImutai](https://www.linkedin.com/in/nicholas-kimutai-1b629a127/)
