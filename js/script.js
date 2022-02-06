@@ -33,6 +33,16 @@ function totalScore(){
        }
      }
 
+     for (var i=0, length=questionFour.length;i<length;i++){
+        if(questionFour[i].checked){
+           var ans4=questionFour[i].value
+           if(questionFour[i].value==='B'){
+             score+=20
+         }
+       }
+     }
+
+     
 
 
 }
