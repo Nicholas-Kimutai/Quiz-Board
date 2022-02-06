@@ -60,6 +60,6 @@ function totalScore(){
         document.getElementById("remarks").value="You have Fairly Passed!";
     }
     else{
-        document.getElementById("remarks").value="You have scored poorly. You need to retake the test";
+        document.getElementById("remarks").value="You have scored poorly. You need to retake the test!";
     }
 }
