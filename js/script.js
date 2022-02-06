@@ -52,13 +52,14 @@ function totalScore(){
      }
 
     document.getElementById("answer").value="Your score is:" +score;
+    
     if(score>80){
-        document.getElementById("feedback").value="You have Excellently passed!";
+        document.getElementById("remarks").value="You have Excellently passed!";
     }
     else if(score<=80 && score>=50){
-        document.getElementById("feedback").value="You have Fairly Passed!";
+        document.getElementById("remarks").value="You have Fairly Passed!";
     }
     else{
-        document.getElementById("feedback").value="You have scored poorly. You need to retake the test";
+        document.getElementById("remarks").value="You have scored poorly. You need to retake the test";
     }
 }
