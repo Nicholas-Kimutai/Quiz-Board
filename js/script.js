@@ -5,4 +5,14 @@ function totalScore(){
   var questionFour=document.getElementsByClassName("question4");
   var questionFive=document.getElementsByClassName("question5");
   var score=0;
+
+  for (var i=0, length=questionOne.length;i<length;i++){
+      if(questionOne[i].checked){
+          var ans1=questionOne[i].value
+          if(questionOne[i].value==='A'){
+              score+=20
+          }
+      }
+  }
+  
 }
